@@ -1,6 +1,7 @@
 class Main {
     
     public static String palindrome(String str){
+        //Two pointer concept
         int left=0;
         int right=str.length()-1;
         //Here String is converted into StringBuilder 
